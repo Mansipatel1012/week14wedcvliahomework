@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="jobsearch Test">
+        <parameter name="jobTitle" value="Tester"></parameter>
+        <parameter name="location" value="Harrow, Greater London"></parameter>
+        <parameter name="Distance" value="5 miles"></parameter>
+        <parameter name="salaryMin" value="30000"></parameter>
+        <parameter name="salaryMax" value="50000"></parameter>
+        <parameter name="salaryType" value="Per annum"></parameter>
+        <parameter name="jobType" value="Permanent"></parameter>
+        <parameter name="result" value="Permanent Tester jobs in Harrow"></parameter>
+        <classes>
+            <class name="uk.co.library.testsuite.JobSearchTest"></class>
+        </classes>
+    </test>
+</suite>
